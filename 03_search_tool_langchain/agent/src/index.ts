@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
-import { searchRouter } from '../../../04_light_rag/agent/src/routes/search_lcel'
+import { searchRouter } from '../../agent/src/routes/search_lcel'
 import { kbRouter } from './routes/light_rag_kb'
 
 const app = express()
