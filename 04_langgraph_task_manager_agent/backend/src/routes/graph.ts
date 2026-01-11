@@ -43,7 +43,7 @@ router.post("/", async (req, res) => {
           interrupt: {
             threadId: result.interrupt.threadId,
             steps: result.interrupt.steps,
-            prompt: "Approve the generated plan to execute or reject to calcel",
+            prompt: "Approve the generated plan to execute or reject to cancel",
           },
         },
       });
